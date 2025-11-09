@@ -184,7 +184,7 @@ function createMCPServer(): Server {
   const server = new Server(
     {
       name: 'mcp-calculator',
-      version: '1.0.0',
+      version: '1.0.1',
     },
     {
       capabilities: {
@@ -314,7 +314,7 @@ function createMCPServer(): Server {
           const info = {
             operatorName: OPERATOR_NAME,
             serverName: 'mcp-calculator',
-            version: '1.0.0',
+            version: '1.0.1',
             port: PORT,
             startTime: new Date().toLocaleString('zh-CN', {
               timeZone: 'Asia/Shanghai',
@@ -363,7 +363,7 @@ async function main() {
     res.json({
       status: 'ok',
       service: 'mcp-calculator',
-      version: '1.0.0',
+      version: '1.0.1',
       operator: OPERATOR_NAME,
       port: PORT,
       timestamp: new Date().toISOString(),
