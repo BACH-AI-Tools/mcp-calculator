@@ -1,5 +1,5 @@
 {
-  "name": "@bachai/bachai-mcp-calculator",
+  "name": "bachai-mcp-calculator",
   "version": "1.0.0",
   "description": "一个基于 SSE 的计算器 MCP 服务器",
   "main": "dist/index.js",
